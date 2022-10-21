@@ -1,5 +1,10 @@
 body{
+    height: 100%;
+}
+.bg{
     background-image: url(Schermafbeelding\ 2022-10-21\ 092344.png);
-    position: relative;
-    
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
