@@ -37,9 +37,10 @@ background-size: cover;
 
 .logo {
 display: inline-block;
-margin-left: auto;
+margin-left: 35%;
 margin-right: auto;
-width: 10%;
+margin-top: -5%;
+width: 30%;
 }
 
 .achtergrond2 {
