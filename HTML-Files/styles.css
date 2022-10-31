@@ -35,6 +35,13 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+#logo {
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+width: 10%;
+}
+
 .achtergrond2 {
 border: 6rem solid;
 border-color: rgb(224, 163, 64);
