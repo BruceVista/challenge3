@@ -8,10 +8,10 @@ body, html {
 /* The image used */
 background-image: url('bg1.png');
 
-/* Full height */
+/* Height */
 height: 100%;
 
-/* Create the parallax scrolling effect */
+/* Background position */
 background-attachment: relative;
 background-position: center;
 background-repeat: no-repeat;
@@ -25,10 +25,10 @@ border-color: rgb(224, 163, 64);
 /* The image used */
 background-image: url('bg2.png');
 
-/* Full height */
+/* Height */
 height: 80%;
 
-/* Create the parallax scrolling effect */
+/* Background position */
 background-attachment: relative;
 background-position: center;
 background-repeat: no-repeat;
@@ -41,10 +41,10 @@ border-color: rgb(224, 163, 64);
 /* The image used */
 background-image: url('bg3.png');
 
-/* Full height */
+/* Height */
 height: 80%;
 
-/* Create the parallax scrolling effect */
+/* Background position */
 background-attachment: relative; /* fixed */
 background-position: center;
 background-repeat: no-repeat;
