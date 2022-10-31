@@ -77,13 +77,13 @@ background-size: cover;
 }
 #menufood{
     width: 300px;
-    height: 700px;
+    height: 480px;
     overflow-x: hidden;
     overflow-y: auto;
     text-align: center;
     padding: 20px;
     position: absolute;
-    top: 4px;
+    top: 890px;
     right: 1010px;
   }
   #foodbg{
