@@ -38,7 +38,7 @@ function toonWinkelmandje() {
         html += "<br />";
         totaal += products[winkelmandje[i]]['prijs'];  
     }
-    html += "<hr /><b>Totaalprijs = " + totaal + "</b>";
+    html += "<br><b>Totaalprijs = " + totaal + "</b>";
     document.getElementById("winkelmandjeId").innerHTML = html;
 }
 
