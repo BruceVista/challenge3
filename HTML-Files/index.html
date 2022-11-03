@@ -24,15 +24,15 @@
 
   
 
-
+    <script type="text/javascript" src="main.js"></script>
     <div id="menufood"><img src="octopus poke bowl.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="salmon poke bowl.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="shrimp poke bowl.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="tuna poke bowl.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="veggie gyoza.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="edamame salad.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="sunomono salad.png" alt="placeholder.png" width="250px" height="250px">
-                       <img src="pork gyoza.png" alt="placeholder.png" width="250px" height="250px">
+                       <img src="salmon poke bowl.png" onclick="productClick(0)" alt="placeholder.png" width="250px" height="250px">
+                       <img src="shrimp poke bowl.png" onclick="productClick(1)" alt="placeholder.png" width="250px" height="250px">
+                       <img src="tuna poke bowl.png" onclick="productClick(2)" alt="placeholder.png" width="250px" height="250px">
+                       <img src="veggie gyoza.png" onclick="productClick(3)" alt="placeholder.png" width="250px" height="250px">
+                       <img src="edamame salad.png"  onclick="productClick(4)"alt="placeholder.png" width="250px" height="250px">
+                       <img src="sunomono salad.png" onclick="productClick(5)" alt="placeholder.png" width="250px" height="250px">
+                       <img src="pork gyoza.png"  onclick="productClick(6)"alt="placeholder.png" width="250px" height="250px">
                     </div>
 
                     <div id="menudrink"><img src="fanta.png" alt="placeholder.png" width="250px" height="250px">
@@ -41,25 +41,24 @@
                                        <img src="sprite_PNG8937.png" alt="placeholder.png" width="250px" height="250px">
                                        <img src="Pepsi-Bottle-PNG-Image-Free-Download.png" alt="placeholder.png" width="250px" height="250px">
                                     </div>
+                                    <div id="wmid" onclick="toonwmid();">...</div>
+    <br />
+    
+    Dit is de volle winkelmand met totaalprijs.
+    <hr />
+    
+    <div id="winkelmandjeId" onclick="toonWinkelmandje();">Winkelmandje producten:</div>
+    <br />
+    <button onclick="emptyWM()"><b>Maak Winkelmand leeg</b></button>
+  
 
 
 
     <div class="achtergrond3"><div class="col-25">
-        <div class="container">
-          <h4>Cart
-            <span class="price" style="color:black">
-              <i class="fa fa-shopping-cart"></i>
-              <b>4</b>
-            </span>
-          </h4>
-          <p><a href="octopus poke bowl.png">Pokebowl teriyaki</a> <span class="price">$15</span></p>
-          <p><a href="#">Pokebowl zalm</a> <span class="price">$5</span></p>
-          <p><a href="#">Pokebowl veggie</a> <span class="price">$8</span></p>
-          <p><a href="#">Pokebowl mexican</a> <span class="price">$2</span></p>
-          <hr>
-          <p>Total <span class="price" style="color:black"><b>$30</b></span></p></div>
+     
 
       
+  
     
         
       
