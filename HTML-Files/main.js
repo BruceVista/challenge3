@@ -9,8 +9,6 @@ var products = {
     "5": {"naam": "pokebowl6", "prijs": 12},
     "6": {"naam": "pokebowl7", "prijs": 11},
     "7": {"naam": "pokebowl7", "prijs": 11},
-    
-
   };
 
   /*
