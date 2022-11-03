@@ -1,14 +1,14 @@
 var winkelmandje = Array();
 var products = Array();
 var products = {
-    "0": {"naam": "pokebowl1", "prijs": 8},
-    "1": {"naam": "pokebowl2", "prijs": 6},
-    "2": {"naam": "pokebowl3", "prijs": 9},
-    "3": {"naam": "pokebowl4", "prijs": 7},
-    "4": {"naam": "pokebowl5", "prijs": 10},
-    "5": {"naam": "pokebowl6", "prijs": 12},
-    "6": {"naam": "pokebowl7", "prijs": 11},
-    "7": {"naam": "pokebowl7", "prijs": 11},
+    "0": {"naam":"Salmon Poké Bowl", "prijs": 10.90},
+    "1": {"naam":"Shrimp Poké Bowl", "prijs": 10.90},
+    "2": {"naam":"Tuna Poké Bowl", "prijs": 11.90},
+    "3": {"naam":"Veggie Gyoza", "prijs": 4.90},
+    "4": {"naam":"Edamame", "prijs": 2.90},
+    "5": {"naam":"Sunomo Salad", "prijs": 3.90},
+    "6": {"naam":"Pork Gyoza", "prijs": 4.90},
+    "7": {"naam":"Octupus Poké Bowl", "prijs": 10.90},
   };
 
   /*
@@ -31,12 +31,12 @@ function toonWinkelmandje() {
     var l = winkelmandje.length;
     for(var i = 0; i < l; i++) {
         html += products[winkelmandje[i]]['naam'];
-        html += " prijs is ";
+        html += ": € ";
         html += products[winkelmandje[i]]['prijs'];
         html += "<br />";
         totaal += products[winkelmandje[i]]['prijs'];  
     }
-    html += "<br><b>Totaalprijs = " + totaal + "</b>";
+    html += "<br><b>Totaalprijs: €  " + totaal + "</b>";
     document.getElementById("winkelmandjeId").innerHTML = html;
 }
 
