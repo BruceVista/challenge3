@@ -111,14 +111,14 @@ left: 150px;
 right: 350px;
 } 
 #winkelmandjeId1{
-    outline: none;
-    color: white;
-    background-color: rgb(19, 173, 35);
-    left: 150px;
-    right: 350px;
-    position: relative;
-    height: 40px;
-    border-width: 0px;
+ outline: none;
+color: white;
+background-color: rgb(19, 173, 35);
+left: 150px;
+right: 350px;
+position: relative;
+height: 40px;
+border-width: 0px;
 }
 #winkelmandjeId1:hover{
 transform: scale(1.2);
@@ -176,57 +176,18 @@ border-color: white;
 width: 200px;
 }
 /*start checkout form*/
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    margin: 0 -16px;
-  }
-  
-  .col-25 {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-  }
-  
-  .col-50 {
-    -ms-flex: 50%; /* IE10 */
-    flex: 50%;
-  }
-  
-  .col-75 {
-    -ms-flex: 75%; /* IE10 */
-    flex: 75%;
-  }
-  
-  .col-25,
-  .col-50,
-  .col-75 {
-    padding: 0 16px;
-  }
-  
-  .container {
-    background-color: #f2f2f2;
-    padding: 5px 20px 15px 20px;
-    border: 1px solid lightgrey;
-    border-radius: 3px;
-    top: -600px;
-    position: relative;
-    width: 300px;
-    
-  }
-  
-  input[type=text] {
-    width: 100%;
-    margin-bottom: 20px;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+
+input[type=text] {    
+width: 100%;
+margin-bottom: 20px;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 3px;
   }
   
   label {
-    margin-bottom: 10px;
-    display: block;
+margin-bottom: 10px;
+display: block;
   }
   
   .icon-container {
