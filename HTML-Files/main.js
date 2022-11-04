@@ -9,6 +9,11 @@ var products = {
     "5": {"naam":"Sunomo Salad", "prijs": 3.90},
     "6": {"naam":"Pork Gyoza", "prijs": 4.90},
     "7": {"naam":"Octupus Poké Bowl", "prijs": 10.90},
+    "8": {"naam":"Fanta", "prijs": 2.50},
+    "9": {"naam":"Coca cola", "prijs":2.50 },
+    "10": {"naam":"Fristi", "prijs": 2.75},
+    "11": {"naam":"Sprite", "prijs": 2.50},
+    "12": {"naam":"Pepsi", "prijs": 2.50},
   };
 
   /*
