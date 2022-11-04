@@ -24,6 +24,7 @@ body {
   .col-50 {
     -ms-flex: 50%; /* IE10 */
     flex: 50%;
+    display: inline-block; 
   }
   
   .col-75 {
@@ -38,23 +39,47 @@ body {
   }
   
   .container {
-    background-color: greenyellow;
+    background-color: #f2f2f2;
     padding: 5px 20px 15px 20px;
     border: 1px solid lightgrey;
     border-radius: 3px;
   }
   
   input[type=text] {
-    width: 100%;
+    width: 30%;
     margin-bottom: 20px;
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 3px;
   }
+
+  #fname{
+    width: 20%;
+  }
+
+  #email{
+    width: 15%;
+  }
+
+  #cname{
+    width: 25%;
+  }
+
+  #ccnum{
+    width: 25%;
+  }
+
+  #expmonth{
+    width: 12%;
+  }
+
+  #cvv{
+    width: 8%;
+  }
   
   label {
     margin-bottom: 10px;
-    display: block;
+    display: inline-block;
   }
   
   .icon-container {
