@@ -111,14 +111,14 @@ left: 150px;
 right: 350px;
 } 
 #winkelmandjeId1{
-    outline: none;
-    color: white;
-    background-color: rgb(19, 173, 35);
-    left: 150px;
-    right: 350px;
-    position: relative;
-    height: 40px;
-    border-width: 0px;
+ outline: none;
+color: white;
+background-color: rgb(19, 173, 35);
+left: 150px;
+right: 350px;
+position: relative;
+height: 40px;
+border-width: 0px;
 }
 #winkelmandjeId1:hover{
 transform: scale(1.2);
@@ -213,6 +213,7 @@ width: 200px;
     top: -600px;
     position: relative;
     width: 300px;
+    left: 800px;
     
   }
   
