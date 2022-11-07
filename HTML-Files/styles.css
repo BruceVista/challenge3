@@ -248,6 +248,35 @@ label {
   font-size: 17px;
 }
 
+.button1{
+  background-color: #45a049;
+  width: 250px;
+  height: 40px;
+  position: relative;
+  top: 160px;
+  left: -250px;
+  font-family: sans-serif;
+  font-size: larger;
+  color: white;
+  border-radius: 30px;
+  padding: 12px;
+  margin: 10px 0;
+  cursor: pointer;
+} 
+
+.button1:hover{
+  background-color:  #45a049;
+}
+
+#insta{
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  top: 50px;
+  left: 180px;
+}
+
 .btn:hover {
   background-color: #45a049;
 }
