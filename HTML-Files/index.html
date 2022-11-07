@@ -24,35 +24,35 @@
 <div id="achtergrond2"></div>
 
 <div id="menufood">
-    Octopus Poké Bowl <details>Proteïn: Octopus <br> Sauce: Wasabi Aioli<br> Topping:Pineapple, Cucumber, Avocado, Wakame salad, Ginger <summary>Ingrediënten</summary></details>
+    Octopus Poké Bowl <details>Proteïne: octopus <br> Saus: wasabi aioli<br> Toppings: ananas, komkommer, avocado, wakame salade, gember <summary>Ingrediënten: rijst, octopus, wasabi aioli, ananas, komkommer, avocado, zeewier salade, gember, sesam</summary></details>
     <br> € 10,90
     <img src="octopus poke bowl.png" onclick="productClick(7)"alt="Octopus Poké Bowl" width="250px" height="250px">
     
-    Salmon Poké Bowl <details>Proteïn: Salmon <br> Sauce: Sesame sauce <br> topping: cucumber, avocado, red cabbage, wakame salad, sesame seeds, seaweed <summary>Ingrediënten</summary></details>
+    Salmon Poké Bowl <details>Proteïne: zalm <br> Saus: sesamsaus <br> Toppings: komkommer, avocado, rode kool, wakame salade, sesam, wakame salade <summary>Ingrediënten: rijst, zalm, sesamsasus, komkommer, avocado, rode kool, sesam, zeewier salade</summary></details>
     <br> € 10,90
     <img src="salmon poke bowl.png" onclick="productClick(0)" alt="Salmon Poké Bowl" width="250px" height="250px">
     
-    Shrimp Poké Bowl <details> Proteïn: Shrimp <br> sauce: Creamy togarashi <br> Topping: Radish, Seaweed, mango, avocado, Wakame salad <summary>Ingrediënten</summary></details>
+    Shrimp Poké Bowl <details> Proteïne: garnalen <br> saus: creamy togarashi <br> Toppings: radijs, wakame salade, mango, avocado, zeewierblad (nori) <summary>Ingrediënten: rijst, garnalen, togarashi saus, radijs, zeewier salade, gedroogd zeewier (nori), mango, avocado</summary></details>
     <br> € 10,90
     <img src="shrimp poke bowl.png" onclick="productClick(1)" alt="Shrimp Poké Bowl" width="250px" height="250px">
     
-    Tuna Poké Bowl <details> Proteïn: Tuna <br> Sauce: Spice mayonaise <br> Topping: Ginger, mango , wakame salad<summary>Ingrediënten</summary></details>
+    Tuna Poké Bowl <details> Proteïne: tonijn <br> saus: pittige mayonaise <br> Toppings: gember, mango , wakame salade <summary>Ingrediënten: rijst, tonijn, mayonaise, gember, mango, wakame salade</summary></details>
     <br> € 11,90
     <img src="tuna poke bowl.png" onclick="productClick(2)" alt="Tuna Poké Bowl" width="250px" height="250px">
     
-    Veggie Gyoza <details> Proteïn: Veggie meat <br> Sauce: soya sauce<summary>Ingrediënten</summary></details>
+    Veggie Gyoza <details> Proteïne: geen <br> saus: sojasaus<summary>Ingrediënten: deeg, groente, sojasaus</summary></details>
     <br> € 4,90
     <img src="veggie gyoza.png" onclick="productClick(3)" alt="Veggie Gyoza" width="250px" height="250px">
    
-    Edamame <details> Green beans (side dish)<summary>Ingrediënten</summary></details>
+    Edamame <details> Groene sojaboontjes (side dish)<summary>Ingrediënten: edamame sojabonen</summary></details>
     <br> € 2,90
     <img src="edamame salad.png"  onclick="productClick(4)"alt="Edamame" width="250px" height="250px">
    
-    Sunomo Salad <details> Cucumber salad <br> Sauce: chili sauce<summary>Ingrediënten</summary></details>
+    Sunomo Salade <details> Komkommersalade <br> Saus: chilisaus <summary>Ingrediënten: komkommer, chilisaus</summary></details>
     <br> € 3,90
     <img src="sunomono salad.png" onclick="productClick(5)" alt="Sunomo Salad" width="250px" height="250px">
     
-    Pork Gyoza <details>Proteïn: Pork <br> Sauce: chili sauce <summary>Ingrediënten</summary></details>
+    Pork Gyoza <details>Proteïne: varkensvleees <br> Saus: chilisaus <summary>Ingrediënten: deeg, varkensvlees, groente, chilisaus</summary></details>
     <br> € 4,90
     <img src="pork gyoza.png"  onclick="productClick(6)"alt="Pork Gyoza" width="250px" height="250px">
 </div>
@@ -87,7 +87,7 @@
     <!-- <div id="winkelmandjeId" onclick="toonWinkelmandje();">Winkelmandje producten:</div> -->
 <br />
 
-<button id="winkelmandjeId1" onclick="emptyWM()"><b>Empty basket</b></button>
+<button id="winkelmandjeId1" onclick="emptyWM()"><b>Winkelmandje leegmaken</b></button>
 
 <!--start checkout form-->       
 <div class="row">
@@ -98,21 +98,21 @@
         <div class="row">
           <div class="col-50">
           <h3>Info</h3>
-            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <label for="fname"><i class="fa fa-user"></i> Naam</label>
             <input type="text" id="fname" name="firstname" placeholder="Surfside Poké">
-            <label for="email"><i class="fa fa-envelope"></i> E-mail</label>
+            <label for="email"><i class="fa fa-envelope"></i> E-mailadres</label>
             <input type="text" id="email" name="email" placeholder="voorbeeld@voorbeeld.com">
             </div>
           </div>
 
           <div class="col-50">
-            <h3>Creditcard Payment</h3>
-            <label for="cname">Name on Card</label>
+            <h3>Creditcardbetaling</h3>
+            <label for="cname">Naam op creditcard</label>
             <input type="text" id="cname" name="cardname" placeholder="Surfside Poké">
-            <label for="ccnum">Creditcard number</label>
+            <label for="ccnum">Creditcardnummer</label>
             <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
             <br>
-            <label for="expmonth">Exp Month/Year</label>
+            <label for="expmonth">Exp Maand/Jaar</label>
             <input type="text" id="expmonth" name="expmonth" placeholder="09/2018">
             <label for="cvv">CVV</label>
             <input type="text" id="cvv" name="cvv" placeholder="123">
