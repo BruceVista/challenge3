@@ -185,7 +185,6 @@ hr{
 
 .container {
   background-color:#E1B772;
-  padding: 5px 20px 15px 20px;
   border-radius: 3px;
   width: 600px;
   position: relative;
@@ -254,7 +253,7 @@ label {
   height: 40px;
   position: relative;
   top: 20px;
-  left: 100px;
+  left: 160px;
   font-family: sans-serif;
   font-size: larger;
   color: white;
@@ -305,8 +304,10 @@ span.price {
 }
 .content{
   top: -580px;
-  left: 1400px;
+  left: 90%;
   position: relative;
 }
-
+body{
+  overflow-x: hidden;
+}
 
